@@ -16,6 +16,11 @@ public class DiRamioGame implements MiniGame {
 
     int thingX = r.nextInt(dc.getWidth() - 20) + 10;
     int thingY = -10;
+    
+    dc.clear();
+    dc.drawString("DODGE!!!", dc.getWidth() / 2, dc.getHeight() / 2);
+    dc.redraw();
+    dc.pause(1000);
 
     while(lives > 0) {
       dc.clear();
