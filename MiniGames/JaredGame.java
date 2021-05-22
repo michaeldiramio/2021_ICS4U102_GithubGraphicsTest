@@ -54,6 +54,7 @@ public class JaredGame implements MiniGame {
           if(playerY - 15 < temp.getHole() - 50 || playerY + 15 > temp.getHole() + 50){
             lives--;
           }
+          
         }
         if(temp.getPositionX() + 100 < playerX){
           score++;
