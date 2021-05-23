@@ -23,7 +23,7 @@ public class RupcicGame implements MiniGame {
 
     while (lives > 0){
       dc.clear();
-
+//
       // player movement
       if(dc.isKeyPressed('a')) {
         playerX -= 8;
