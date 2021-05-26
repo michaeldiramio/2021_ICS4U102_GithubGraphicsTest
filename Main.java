@@ -12,7 +12,6 @@ public class Main {
     Random r = new Random();
 
     ArrayList<MiniGame> games = new ArrayList<>();
-    //games.add(new DiRamioGame());
     games.add(new MasonGame());
 
     // play games FOREVER!
