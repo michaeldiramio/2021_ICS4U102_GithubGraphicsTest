@@ -13,7 +13,6 @@ public class Main {
 
     ArrayList<MiniGame> games = new ArrayList<>();
     games.add(new DiRamioGame());
-    games.add(new ColinGame());
 
     // play games FOREVER!
     while(true) {
