@@ -17,6 +17,9 @@ public class Main {
     games.add(new MasonGame());
     games.add(new JoeGame());
     games.add(new ColinGame());
+    games.add(new JaredGame());
+    games.add(new RupcicGame());
+
 
     // play games FOREVER!
     while(true) {
