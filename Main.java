@@ -14,6 +14,12 @@ public class Main {
     ArrayList<MiniGame> games = new ArrayList<>();
     games.add(new DiRamioGame());
     games.add(new GaelanGame());
+    games.add(new MilanGame());
+    games.add(new MasonGame());
+    games.add(new JoeGame());
+    games.add(new ColinGame());
+    games.add(new JaredGame());
+    games.add(new RupcicGame());
 
     // play games FOREVER!
     while(true) {
